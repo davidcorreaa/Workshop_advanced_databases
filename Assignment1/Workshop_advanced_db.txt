@@ -109,7 +109,7 @@ GRANT without_privileges TO third_user;
 
 ALTER USER first_user ACCOUNT LOCK;
 ALTER USER second_user ACCOUNT LOCK;
-ALTER USER third_user ACCOUNT LOCK; 
+ALTER USER third_user ACCOUNT  LOCK;
 
 /*10. Delete the tablespace called "?test_purposes"*/
 

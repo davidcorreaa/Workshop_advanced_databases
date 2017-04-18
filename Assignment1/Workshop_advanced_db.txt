@@ -105,7 +105,7 @@ GRANT without_privileges TO first_user;
 GRANT without_privileges TO second_user;
 GRANT without_privileges TO third_user;
 
-/*9. Lock the users associate with profiles: ?manager_profile?, ?finance_profile? and ?service_profile?.*/
+/*9. Lock the users associate with profiles: ?manager_profile?, ?finance_profile? and ?service_profile?*/
 
 ALTER USER first_user ACCOUNT LOCK;
 ALTER USER second_user ACCOUNT LOCK;
